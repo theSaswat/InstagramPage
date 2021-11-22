@@ -1,1 +1,120 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <title>InstaSamplePost</title>
+        <style>
+            #main {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            #logo {
+                display: flex;
+                align-items: center;
+                width: 370px;
+                border-top: 1px solid lightgray;
+            }
+            #logo img {
+                height: 35px;
+                width: 35px;
+                border-radius: 50%;
+
+
+            }
+            #icons {
+                display: flex;
+                align-content:flex-start ;
+                width: 370px;
+            }
+            #text {
+                width: 370px;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+            }
+            .comment-wrapper{
+            border:none;
+            border-radius:3px solid #565656;
+            display:flex;
+            }
+           .comment-wrapper .icon{
+           
+           }
+           .comment-btn{
+           border:none;
+           outline:none;
+           opacity:0.8;
+           }
+           .comment-box{
+           border-top:none;
+           border-left:none;
+           border-right:none;
+           }
+           
+          .icon{
+          height:20px;
+          float:left;
+          {
+
+        </style>
+    </head>
+
+    <body>
+        <!-- Main div -->
+ <div id="main">
+            <!-- logo div -->
+<div id="logo">
+ <img src="images/foodies.jpg" alt="" style="justify-self: flex-start;">
+     <p style="padding-left: 10px; flex: 1;"><b>Foodies_Of_Bhubaneswar<br>Khorda,Odisha</p>
+ <span class="material-icons" style="justify-self: left;">
+                    more_vert
+     </span>
+            </div>
+            <!-- Image div -->
+            <div id="img">
+     <img style="height:400px; width:380px"src="images/food.jpg" alt="">
+
+            </div>
+            <!-- Icons div -->
+            <div id="icons">
+ <span class="material-icons" style="margin-right: 10px; margin-top: 4px;font-size:40px;" >
+                    favorite_border
+                </span>
+                
+                <span class="material-icons" style="margin-right: 10px; margin-top: 4px;font-size:40px;">
+                    chat_bubble_outline
+                    </span>
+
+  <span class="material-icons" style="transform: rotate(-30deg);font-size:40px;">
+                    send
+   </span>
+
+    <span style="flex: 1;"> </span>
+
+                <span class="material-icons" style="margin-top: 4px;font-size:40px;">
+                    bookmark_border
+                    </span>
+            </div>
+            <!-- text div -->
+   <div id="text" style="margin-top: 5px;">
+   
+        <span style="font-style: italic; margin-right: 4px;margin-left:5px;">Liked by 
+                 <b> J_e_n_a_resturant</b>  and <b>others</b></span>
+  <p style="color:dodgerblue;"><em> #Anita_Hotel  #Zomato #Gift #Misti_foodies #OdishaFood #BigBazar #Utkal_Plazza</p>
+                <p>Foodies_Of_Bhubaneswar I love cheeseCakes especially with blueberries and found one with nice preparation and consistency.@vanillebydibya_</span>,.....more </p>
+            </div>
+            <!-- Comment Box -->
+     <div class="comment-wrapper">
+    <img src="images/smile.png" class="icon" alt="">
+   <input type="text"style="padding-left:10px;font-size:20px;" class="comment-box" placeholder="Add a comment here">
+ <button class="comment-btn"style="margin-left: 35px;padding-left:17px;padding-right:17px;border-radius:30px; background-color:tomato;">post</button>
+                </div>
+     
+        </div>
+    </body>
+</html>
